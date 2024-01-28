@@ -53,9 +53,5 @@ Password: admin
 - **Elasticsearch**: Default port [http://localhost:9200](http://localhost:9200)
 - **MongoDB**: Default port [http://localhost:27017](http://localhost:27017)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 - [Logback GELF](https://github.com/osiegmar/logback-gelf) - Logback appender for sending GELF messages.
