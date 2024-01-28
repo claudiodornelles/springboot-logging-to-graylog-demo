@@ -35,18 +35,24 @@ For sending logs to Graylog, this project utilizes [Logback GELF](https://github
     docker-compose up -d
     ```
 
-4. Run the application:
+4. Access Graylog page at [http://localhost:9000](http://localhost:9000) using the following credentials
+```
+Username: admin
+Password: admin
+```
+
+5. Access 'System/Inputs' from the menu bar
+6. Click `new input` drop down menu and select `GELF UDP`
+7. Click `Launch new input`
+8. Give it a title (i.e. GELF UDP) and hit `Launch input`
+9. Run the application with the command:
     ```bash
     ./gradlew bootRun
     ```
 
 ## Usage
-- Access the application at [http://localhost:8080/v1/values/odd/next/](http://localhost:8080/v1/values/odd/next/) to trigger the endpoint.
-- Access **Graylog** to see application logs at [http://localhost:9000](http://localhost:9000) using the following credentials
-```
-Username: admin
-Password: admin
-```
+- Access the application at [http://localhost:8080/v1/values/odd/next](http://localhost:8080/v1/values/odd/next/) to trigger the endpoint.
+- Access application logs in Graylog using the `Search` option from Graylog`s menu.
 
 ## Docker Compose Services
 - **Graylog**: Access at [http://localhost:9000](http://localhost:9000)
