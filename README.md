@@ -21,8 +21,8 @@ For sending logs to Graylog, this project utilizes [Logback GELF](https://github
 ## Getting Started
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/claudiodornelles/springboot-logging-to-graylog-demo.git
+    cd springboot-logging-to-graylog-demo
     ```
 
 2. Build the application:
